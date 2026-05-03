@@ -686,7 +686,7 @@
 
 
           <footer>
-        <p><strong data-it="Tuttoscooter di Stefano Moncini - P.IVA 01172420117 - REA: SP-106760" data-en="Tuttoscooter di Stefano Moncini - VAT 01172420117 - REA: SP-106760">Tuttoscooter di Stefano Moncini - P.IVA 01172420117 - REA: SP-106760</strong> / <a href="privacy-policy.html" id="privacy-footer" data-href-it="privacy-policy.html" data-href-en="privacy-policy-en.html" style="color: #fff; text-decoration: underline;">Privacy Policy</a> / <a href="cookie-policy.html" id="cookie-footer" data-href-it="cookie-policy.html" data-href-en="cookie-policy-en.html" style="color: #fff; text-decoration: underline;">Cookie Policy</a></p>
+        <p><strong id="footer-ragione-sociale">Tuttoscooter di Stefano Moncini - P.IVA 01172420117 - REA: SP-106760</strong> / <a href="privacy-policy.html" id="privacy-footer" data-href-it="privacy-policy.html" data-href-en="privacy-policy-en.html" style="color: #fff; text-decoration: underline;">Privacy Policy</a> / <a href="cookie-policy.html" id="cookie-footer" data-href-it="cookie-policy.html" data-href-en="cookie-policy-en.html" style="color: #fff; text-decoration: underline;">Cookie Policy</a></p>
         <p><span data-it="Sede: via Michele Rossi, 67 - 19126 La Spezia - SP" data-en="Address: via Michele Rossi, 67 - 19126 La Spezia - SP, Italy">Sede: via Michele Rossi, 67 - 19126 La Spezia - SP</span></p>
         <p style="margin-top: 0.5rem;">
             <span data-it="Tel:" data-en="Phone:">Tel:</span>
@@ -714,6 +714,10 @@
         el.innerHTML = el.getAttribute('data-' + lang);
       });
       document.documentElement.lang = lang;
+      const footerRS = document.getElementById('footer-ragione-sociale');
+      if (footerRS) footerRS.textContent = lang === 'en'
+        ? 'Tuttoscooter di Stefano Moncini - VAT 01172420117 - REA: SP-106760'
+        : 'Tuttoscooter di Stefano Moncini - P.IVA 01172420117 - REA: SP-106760';
       document.getElementById('btn-it').classList.toggle('active', lang === 'it');
       document.getElementById('btn-en').classList.toggle('active', lang === 'en');
 
