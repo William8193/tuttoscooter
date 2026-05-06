@@ -316,6 +316,34 @@
       font-weight: 600;
     }
 
+    /* Comparison Table Responsive */
+    .comparison-table {
+      margin-top: 1.5rem;
+      font-size: 0.95rem;
+    }
+
+    .comparison-table th, 
+    .comparison-table td {
+      padding: 0.8rem 0.5rem;
+    }
+
+    @media (max-width: 600px) {
+      .comparison-table {
+        font-size: 0.85rem;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+      
+      .comparison-table th, 
+      .comparison-table td {
+        padding: 0.6rem 0.4rem;
+      }
+    }
+
+    .cross-red { color: #e63946; font-weight: bold; }
+    .check-green { color: #2a9d8f; font-weight: bold; }
+
     .cta-box {
       background: var(--accent);
       padding: 2rem;
