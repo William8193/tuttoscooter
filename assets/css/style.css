@@ -406,6 +406,12 @@
         gap: 1.5rem;
       }
 
+      .nav-home {
+        position: static;
+        display: inline-block;
+        margin-bottom: 15px;
+      }
+
       header {
         padding: 2rem 1rem 2rem;
       }
