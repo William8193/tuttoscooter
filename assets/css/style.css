@@ -407,13 +407,15 @@
       }
 
       .nav-home {
-        position: static;
+        position: relative;
+        top: 0;
+        left: 0;
         display: inline-block;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
       }
 
       header {
-        padding: 2rem 1rem 2rem;
+        padding: 1.5rem 1rem 2rem;
       }
 
       section {
@@ -432,9 +434,8 @@
     /* Small Mobile */
     @media (max-width: 480px) {
 
-      /* Removed heavy header margin-top since we re-flowed elements */
       header {
-        padding: 1.5rem 1rem 1.5rem;
+        padding: 1rem 1rem 1.5rem;
       }
 
       h2 {
