@@ -84,38 +84,43 @@
       font-size: 16px;
     }
 
-    /* Mobile CTA Sticky */
+    /* CTA Sticky Bar (Universal) */
     .mobile-cta-fixed {
       position: sticky;
       top: 0;
       background: var(--accent);
       display: flex;
       justify-content: center;
-      gap: 1rem;
-      padding: 1rem;
-      z-index: 100;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    }
-
-    @media (min-width: 769px) {
-      .mobile-cta-fixed {
-        display: none;
-      }
+      gap: 1.5rem;
+      padding: 0.8rem 1rem;
+      z-index: 1000;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
     }
 
     .cta-mobile {
-      flex: 1;
-      padding: 14px 12px;
-      text-align: center;
-      border-radius: 25px;
-      font-weight: 600;
-      font-size: 1rem;
-      text-decoration: none;
-      color: #000;
-      display: flex;
+      display: flex !important;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: 8px;
+      text-decoration: none;
+      color: #000;
+      font-weight: 600;
+      transition: transform 0.2s ease;
+    }
+
+    .cta-mobile:hover {
+      transform: scale(1.05);
+    }
+
+    .cta-mobile img {
+      width: 36px;
+      height: 36px;
+      display: block;
+    }
+
+    .cta-mobile span {
+      font-size: 0.75rem;
+      margin-top: 2px;
     }
 
     header {
@@ -193,14 +198,9 @@
       }
     }
 
+    /* Remove redundant static CTA styles */
     .cta {
-      margin-top: 1.5rem;
-    }
-
-    @media (max-width: 768px) {
-      .cta {
-        display: none;
-      }
+      display: none !important;
     }
 
     .cta a {
