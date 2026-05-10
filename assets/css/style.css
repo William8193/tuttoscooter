@@ -375,6 +375,7 @@
     .why li {
       list-style: none;
       margin-bottom: .8rem;
+      text-align: center;
     }
 
     .map-button {
