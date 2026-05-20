@@ -1,6 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
 <head>
-  <meta http-equiv="refresh" content="0; url=index-it.html">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Tutto Scooter La Spezia</title>
+
+  <!-- SEO base -->
+  <link rel="canonical" href="https://tuttoscooter.com/" />
+
+  <script>
+    (function () {
+      const lang = navigator.language || navigator.userLanguage || "it";
+      const shortLang = lang.toLowerCase().slice(0, 2);
+
+      const routes = {
+        it: "index-it.html",
+        en: "index-en.html",
+        fr: "index-fr.html",
+        es: "index-es.html",
+        de: "index-de.html"
+      };
+
+      const target = routes[shortLang] || routes.it;
+
+      // evita loop se sei già nella pagina giusta
+      if (!window.location.pathname.includes(target)) {
+        window.location.replace(target);
+      }
+    })();
+  </script>
+
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=index-it.html" />
+  </noscript>
 </head>
+
+<body>
+  <p style="font-family: sans-serif;">
+    Redirect in corso...
+  </p>
+</body>
 </html>
