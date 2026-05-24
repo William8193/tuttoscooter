@@ -1,164 +1,344 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <!-- HOMEPAGE -->
   <url>
-    <loc>https://www.tuttoscooter.com/index.html</loc>
+    <loc>https://tuttoscooter.com/it/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/" />
   </url>
   <url>
-    <loc>https://www.tuttoscooter.com/index-en.html</loc>
+    <loc>https://tuttoscooter.com/en/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/" />
   </url>
   <url>
-    <loc>https://www.tuttoscooter.com/index-fr.html</loc>
+    <loc>https://tuttoscooter.com/fr/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/" />
   </url>
   <url>
-    <loc>https://www.tuttoscooter.com/index-es.html</loc>
+    <loc>https://tuttoscooter.com/es/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/" />
   </url>
   <url>
-    <loc>https://www.tuttoscooter.com/index-de.html</loc>
+    <loc>https://tuttoscooter.com/de/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/" />
   </url>
 
   <!-- NOLEGGIO AUTO -->
   <url>
-    <loc>https://www.tuttoscooter.com/noleggio-auto-la-spezia.html</loc>
+    <loc>https://tuttoscooter.com/it/noleggio-auto-la-spezia.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/noleggio-auto-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/noleggio-auto-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/noleggio-auto-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/noleggio-auto-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/noleggio-auto-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/noleggio-auto-la-spezia.html" />
   </url>
   <url>
-    <loc>https://www.tuttoscooter.com/noleggio-auto-la-spezia-en.html</loc>
+    <loc>https://tuttoscooter.com/en/noleggio-auto-la-spezia.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/noleggio-auto-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/noleggio-auto-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/noleggio-auto-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/noleggio-auto-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/noleggio-auto-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/noleggio-auto-la-spezia.html" />
   </url>
   <url>
-    <loc>https://www.tuttoscooter.com/noleggio-auto-la-spezia-fr.html</loc>
+    <loc>https://tuttoscooter.com/fr/noleggio-auto-la-spezia.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/noleggio-auto-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/noleggio-auto-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/noleggio-auto-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/noleggio-auto-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/noleggio-auto-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/noleggio-auto-la-spezia.html" />
   </url>
   <url>
-    <loc>https://www.tuttoscooter.com/noleggio-auto-la-spezia-es.html</loc>
+    <loc>https://tuttoscooter.com/es/noleggio-auto-la-spezia.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/noleggio-auto-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/noleggio-auto-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/noleggio-auto-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/noleggio-auto-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/noleggio-auto-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/noleggio-auto-la-spezia.html" />
   </url>
   <url>
-    <loc>https://www.tuttoscooter.com/noleggio-auto-la-spezia-de.html</loc>
+    <loc>https://tuttoscooter.com/de/noleggio-auto-la-spezia.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/noleggio-auto-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/noleggio-auto-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/noleggio-auto-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/noleggio-auto-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/noleggio-auto-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/noleggio-auto-la-spezia.html" />
   </url>
 
   <!-- NOLEGGIO SCOOTER -->
   <url>
-    <loc>https://www.tuttoscooter.com/noleggio-scooter-la-spezia.html</loc>
+    <loc>https://tuttoscooter.com/it/noleggio-scooter-la-spezia.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/noleggio-scooter-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/noleggio-scooter-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/noleggio-scooter-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/noleggio-scooter-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/noleggio-scooter-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/noleggio-scooter-la-spezia.html" />
   </url>
   <url>
-    <loc>https://www.tuttoscooter.com/noleggio-scooter-la-spezia-en.html</loc>
+    <loc>https://tuttoscooter.com/en/noleggio-scooter-la-spezia.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/noleggio-scooter-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/noleggio-scooter-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/noleggio-scooter-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/noleggio-scooter-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/noleggio-scooter-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/noleggio-scooter-la-spezia.html" />
   </url>
   <url>
-    <loc>https://www.tuttoscooter.com/noleggio-scooter-la-spezia-fr.html</loc>
+    <loc>https://tuttoscooter.com/fr/noleggio-scooter-la-spezia.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/noleggio-scooter-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/noleggio-scooter-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/noleggio-scooter-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/noleggio-scooter-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/noleggio-scooter-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/noleggio-scooter-la-spezia.html" />
   </url>
   <url>
-    <loc>https://www.tuttoscooter.com/noleggio-scooter-la-spezia-es.html</loc>
+    <loc>https://tuttoscooter.com/es/noleggio-scooter-la-spezia.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/noleggio-scooter-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/noleggio-scooter-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/noleggio-scooter-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/noleggio-scooter-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/noleggio-scooter-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/noleggio-scooter-la-spezia.html" />
   </url>
   <url>
-    <loc>https://www.tuttoscooter.com/noleggio-scooter-la-spezia-de.html</loc>
+    <loc>https://tuttoscooter.com/de/noleggio-scooter-la-spezia.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/noleggio-scooter-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/noleggio-scooter-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/noleggio-scooter-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/noleggio-scooter-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/noleggio-scooter-la-spezia.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/noleggio-scooter-la-spezia.html" />
   </url>
 
   <!-- FAQ -->
   <url>
-    <loc>https://www.tuttoscooter.com/faq-it.html</loc>
+    <loc>https://tuttoscooter.com/it/faq.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/faq.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/faq.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/faq.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/faq.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/faq.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/faq.html" />
   </url>
   <url>
-    <loc>https://www.tuttoscooter.com/faq-en.html</loc>
+    <loc>https://tuttoscooter.com/en/faq.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/faq.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/faq.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/faq.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/faq.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/faq.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/faq.html" />
   </url>
   <url>
-    <loc>https://www.tuttoscooter.com/faq-fr.html</loc>
+    <loc>https://tuttoscooter.com/fr/faq.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/faq.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/faq.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/faq.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/faq.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/faq.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/faq.html" />
   </url>
   <url>
-    <loc>https://www.tuttoscooter.com/faq-es.html</loc>
+    <loc>https://tuttoscooter.com/es/faq.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/faq.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/faq.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/faq.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/faq.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/faq.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/faq.html" />
   </url>
   <url>
-    <loc>https://www.tuttoscooter.com/faq-de.html</loc>
+    <loc>https://tuttoscooter.com/de/faq.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/faq.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/faq.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/faq.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/faq.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/faq.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/faq.html" />
   </url>
 
   <!-- PRIVACY POLICY -->
   <url>
-    <loc>https://www.tuttoscooter.com/privacy-policy.html</loc>
+    <loc>https://tuttoscooter.com/it/privacy-policy.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/privacy-policy.html" />
   </url>
   <url>
-    <loc>https://www.tuttoscooter.com/privacy-policy-en.html</loc>
+    <loc>https://tuttoscooter.com/en/privacy-policy.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/privacy-policy.html" />
   </url>
   <url>
-    <loc>https://www.tuttoscooter.com/privacy-policy-fr.html</loc>
+    <loc>https://tuttoscooter.com/fr/privacy-policy.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/privacy-policy.html" />
   </url>
   <url>
-    <loc>https://www.tuttoscooter.com/privacy-policy-es.html</loc>
+    <loc>https://tuttoscooter.com/es/privacy-policy.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/privacy-policy.html" />
   </url>
   <url>
-    <loc>https://www.tuttoscooter.com/privacy-policy-de.html</loc>
+    <loc>https://tuttoscooter.com/de/privacy-policy.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/privacy-policy.html" />
   </url>
 
   <!-- COOKIE POLICY -->
   <url>
-    <loc>https://www.tuttoscooter.com/cookie-policy.html</loc>
+    <loc>https://tuttoscooter.com/it/cookie-policy.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/cookie-policy.html" />
   </url>
   <url>
-    <loc>https://www.tuttoscooter.com/cookie-policy-en.html</loc>
+    <loc>https://tuttoscooter.com/en/cookie-policy.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/cookie-policy.html" />
   </url>
   <url>
-    <loc>https://www.tuttoscooter.com/cookie-policy-fr.html</loc>
+    <loc>https://tuttoscooter.com/fr/cookie-policy.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/cookie-policy.html" />
   </url>
   <url>
-    <loc>https://www.tuttoscooter.com/cookie-policy-es.html</loc>
+    <loc>https://tuttoscooter.com/es/cookie-policy.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/cookie-policy.html" />
   </url>
   <url>
-    <loc>https://www.tuttoscooter.com/cookie-policy-de.html</loc>
+    <loc>https://tuttoscooter.com/de/cookie-policy.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tuttoscooter.com/it/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tuttoscooter.com/en/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tuttoscooter.com/fr/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://tuttoscooter.com/es/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/cookie-policy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/cookie-policy.html" />
   </url>
 </urlset>
