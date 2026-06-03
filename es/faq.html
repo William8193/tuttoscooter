@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png" />
-    <link rel="shortcut icon" href="/assets/images/favicon.ico" />
+    <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png" />
     <link rel="manifest" href="/assets/images/favicon/site.webmanifest" />
     <meta name="theme-color" content="#0a3d62" />
@@ -38,11 +38,11 @@
     <!-- Mobile CTA Sticky -->
   <div class="mobile-cta-fixed">
     <a href="tel:+393405272068" class="cta-mobile">
-      <img src="/assets/images/Phone-Icon1.png" alt="Phone" style="width: 36px; height: 36px;">
+      <img src="/assets/images/Phone-Icon1-48.webp" alt="Phone" style="width: 36px; height: 36px;">
       <span data-it="Chiama ora" data-en="Call Now" data-fr="Appelez maintenant" data-es="Llama ora" data-de="Jetzt anrufen">Llama ora</span>
     </a>
     <a href="https://wa.me/393405272068" class="cta-mobile">
-      <img src="/assets/images/Apple_App_Icon_Dark_2026.png" alt="WhatsApp" style="width: 36px; height: 36px;">
+      <img src="/assets/images/Apple_App_Icon_Dark_2026-48.webp" alt="WhatsApp" style="width: 36px; height: 36px;">
       <span>WhatsApp</span>
     </a>
     <a href="/it/faq.html" class="cta-mobile" id="faq-mobile-link" data-href-it="/it/faq.html" data-href-en="/en/faq.html" data-href-fr="/fr/faq.html" data-href-es="/es/faq.html" data-href-de="/de/faq.html">❓ FAQ</a>
@@ -53,6 +53,13 @@
         <p>Respuestas a las preguntas más comunes sobre nuestro servicio de alquiler.</p>
     </header>
         <section>
+        <details class="faq-item">
+            <summary>¿Puedo alquilar y conducir con un permiso de conducir digital o una foto del permiso?</summary>
+            <div class="faq-answer">
+                <p>Los ciudadanos italianos pueden presentar el permiso de conducir en formato digital solo a través de la aplicación oficial IO, en la sección dedicada a los documentos digitales. No se aceptan fotos del permiso, capturas de pantalla, copias digitales ni imágenes guardadas en el teléfono.</p>
+                <p>Los clientes extranjeros que presenten un permiso de conducir emitido por otro país deben mostrar el permiso físico original válido. Un permiso digital extranjero, una foto o una captura de pantalla del permiso no son suficientes para el alquiler.</p>
+            </div>
+        </details>
         <details class="faq-item">
             <summary>¿Cuánto cuesta alquilar una Vespa 125?</summary>
             <div class="faq-answer">
@@ -90,6 +97,7 @@
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
+    {"@type":"Question","name":"¿Puedo alquilar y conducir con un permiso de conducir digital o una foto del permiso?","acceptedAnswer":{"@type":"Answer","text":"Los ciudadanos italianos pueden presentar el permiso de conducir en formato digital solo a través de la aplicación oficial IO, en la sección dedicada a los documentos digitales. No se aceptan fotos del permiso, capturas de pantalla, copias digitales ni imágenes guardadas en el teléfono. Los clientes extranjeros que presenten un permiso de conducir emitido por otro país deben mostrar el permiso físico original válido. Un permiso digital extranjero, una foto o una captura de pantalla del permiso no son suficientes para el alquiler."}},
     {"@type":"Question","name":"¿Cuánto cuesta alquilar una Vespa 125?","acceptedAnswer":{"@type":"Answer","text":"La Vespa 125 cuesta 70 € al día. Incluye seguro RC, dos cascos, baúl y antirrobo. Es nuestra opción premium para Cinque Terre – reserva por WhatsApp, disponibilidad limitada."}},
     {"@type":"Question","name":"¿Cuánto cuesta un scooter SYM 125?","acceptedAnswer":{"@type":"Answer","text":"Nuestros SYM Symphony 125 (o similar) desde 50 € al día. Misma inclusión que la Vespa, perfecto para una excelente relación calidad-precio."}},
     {"@type":"Question","name":"¿Dónde puedo aparcar el scooter en Cinque Terre?","acceptedAnswer":{"@type":"Answer","text":"Cada pueblo tiene aparcamiento de moto de pago: Riomaggiore (parking superior), Manarola (encima del pueblo), Corniglia (entrada), Vernazza (antes de la bajada), Monterosso (paseo marítimo de Fegina). Con scooter evitas la ZTL y aparcas mucho más fácil que con coche."}},
@@ -99,10 +107,6 @@
 </script>
 <script src="/assets/js/script.js"></script>
 </body>
-</html>
-
-</body>
-
 </html>
 
 
