@@ -15,11 +15,11 @@
       const shortLang = lang.toLowerCase().slice(0, 2);
 
       const routes = {
-        it: "index-it.html",
-        en: "index-en.html",
-        fr: "index-fr.html",
-        es: "index-es.html",
-        de: "index-de.html"
+        it: "/it/",
+        en: "/en/",
+        fr: "/fr/",
+        es: "/es/",
+        de: "/de/"
       };
 
       const target = routes[shortLang] || routes.it;
@@ -32,7 +32,7 @@
   </script>
 
   <noscript>
-    <meta http-equiv="refresh" content="0; url=index-it.html" />
+    <meta http-equiv="refresh" content="0; url=/it/" />
   </noscript>
 </head>
 

@@ -1,6 +1,35 @@
-function setLang(lang) {
+const SITE_LANGS = ['it', 'en', 'fr', 'es', 'de'];
+
+function getUrlLang() {
+  const firstSegment = window.location.pathname.split('/').filter(Boolean)[0];
+  return SITE_LANGS.includes(firstSegment) ? firstSegment : null;
+}
+
+function getLocalizedPath(lang) {
+  const parts = window.location.pathname.split('/').filter(Boolean);
+  if (!parts.length) return '/' + lang + '/';
+
+  if (SITE_LANGS.includes(parts[0])) {
+    parts[0] = lang;
+    return '/' + parts.join('/') + (window.location.pathname.endsWith('/') ? '/' : '');
+  }
+
+  return '/' + lang + '/';
+}
+
+function setLang(lang, options = {}) {
+  const shouldNavigate = options.navigate !== false;
+  const currentUrlLang = getUrlLang();
+
+  if (shouldNavigate && currentUrlLang && currentUrlLang !== lang) {
+    localStorage.setItem('preferredLang', lang);
+    window.location.href = getLocalizedPath(lang) + window.location.search + window.location.hash;
+    return;
+  }
+
   document.querySelectorAll('[data-it]').forEach(el => {
-    el.innerHTML = el.getAttribute('data-' + lang);
+    const translated = el.getAttribute('data-' + lang);
+    if (translated !== null) el.innerHTML = translated;
   });
   document.documentElement.lang = lang;
   const footerRS = document.getElementById('footer-ragione-sociale');
@@ -59,17 +88,7 @@ function setLang(lang) {
   
   const cookieBannerLink = document.getElementById('cookie-banner-link');
   if (cookieBannerLink) {
-    if (lang === 'en') {
-      cookieBannerLink.href = 'cookie-policy-en.html';
-    } else if (lang === 'fr') {
-      cookieBannerLink.href = 'cookie-policy-fr.html';
-    } else if (lang === 'es') {
-      cookieBannerLink.href = 'cookie-policy-es.html';
-    } else if (lang === 'de') {
-      cookieBannerLink.href = 'cookie-policy-de.html';
-    } else {
-      cookieBannerLink.href = 'cookie-policy.html';
-    }
+    cookieBannerLink.href = '/' + lang + '/cookie-policy.html';
   }
   localStorage.setItem('preferredLang', lang);
 }
@@ -79,10 +98,11 @@ document.addEventListener("DOMContentLoaded", function() {
     const browserLang = navigator.language || navigator.userLanguage;
     const savedLang = localStorage.getItem('preferredLang');
     const htmlLang = document.documentElement.lang;
+    const urlLang = getUrlLang();
     
-    let langToUse = savedLang || htmlLang || (browserLang.startsWith('it') ? 'it' : (browserLang.startsWith('fr') ? 'fr' : (browserLang.startsWith('es') ? 'es' : (browserLang.startsWith('de') ? 'de' : 'en'))));
+    let langToUse = urlLang || htmlLang || savedLang || (browserLang.startsWith('it') ? 'it' : (browserLang.startsWith('fr') ? 'fr' : (browserLang.startsWith('es') ? 'es' : (browserLang.startsWith('de') ? 'de' : 'en'))));
     
-    setLang(langToUse);
+    setLang(langToUse, { navigate: false });
 
     // Cookie banner logic
     const banner = document.getElementById('cookie-banner');
