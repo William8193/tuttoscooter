@@ -4,6 +4,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {
+  'analytics_storage': 'denied',
+  'ad_storage': 'denied',
+  'ad_user_data': 'denied',
+  'ad_personalization': 'denied',
+  'wait_for_update': 500
+});
+</script>
   
   <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png" />
@@ -26,19 +38,10 @@
   <link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/noleggio-scooter-la-spezia.html" />
 
   <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="stylesheet" href="/assets/vendor/cookieconsent/cookieconsent.css">
 </head>
 
 <body>
-
-<div id="cookie-banner" class="cookie-banner">
-    <div class="cookie-container">
-        <p>Diese Website verwendet nur technische Cookies, die für den Betrieb erforderlich sind. Wir verwenden keine Profiling- oder Drittanbieter-Cookies. 
-           Lesen Sie unsere <a href="/de/cookie-policy.html">Cookie-Richtlinie</a>.</p>
-        <div class="cookie-actions">
-            <button id="accept-cookies" class="btn-cookie-accept">Verstanden</button>
-        </div>
-    </div>
-</div>
 
     <!-- Mobile CTA Sticky -->
   <div class="mobile-cta-fixed">
@@ -250,7 +253,7 @@
     </section>
 
     <footer>
-        <p><strong id="footer-ragione-sociale">Tuttoscooter di Stefano Moncini - P.IVA 01172420117 - REA: SP-106760</strong> / <a href="/de/privacy-policy.html" id="privacy-footer" style="color: #fff; text-decoration: underline;">Datenschutzerklärung</a> / <a href="/de/cookie-policy.html" id="cookie-footer" style="color: #fff; text-decoration: underline;">Cookie-Richtlinie</a></p>
+        <p><strong id="footer-ragione-sociale">Tuttoscooter di Stefano Moncini - P.IVA 01172420117 - REA: SP-106760</strong> / <a href="/de/privacy-policy.html" id="privacy-footer" style="color: #fff; text-decoration: underline;">Datenschutzerklärung</a> / <a href="/de/cookie-policy.html" id="cookie-footer" style="color: #fff; text-decoration: underline;">Cookie-Richtlinie</a> / <a href="#" onclick="CookieConsent.showPreferences(); return false;" style="color:#fff;">Cookie-Einstellungen</a></p>
         <p><span>Sitz: via Michele Rossi, 67 - 19126 La Spezia - SP, Italien</span></p>
         <p style="margin-top: 0.5rem;">
             <span>Tel:</span>
@@ -317,7 +320,8 @@
   }
   </script>
 
-
+<script src="/assets/vendor/cookieconsent/cookieconsent.umd.js"></script>
+<script src="/assets/js/consent-init.js"></script>
 <script src="/assets/js/script.js"></script></body>
 
 </html>

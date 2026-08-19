@@ -4,6 +4,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {
+  'analytics_storage': 'denied',
+  'ad_storage': 'denied',
+  'ad_user_data': 'denied',
+  'ad_personalization': 'denied',
+  'wait_for_update': 500
+});
+</script>
   <title>Roller- und Autovermietung in La Spezia in der Nähe von Hafen und Cinque Terre | Tuttoscooter</title>
   <meta name="description"
     content="Vespa mieten ab 70€ und Roller 125 ab 50€ in La Spezia mit Führerschein B, nah am Hafen und Bahnhof. Preise ab, saisonal variabel. Helme inklusive. Ideal für Cinque Terre." />
@@ -114,22 +126,11 @@
   }
   </script>
 
-  <link rel="stylesheet" href="/assets/css/style.css"></head>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/vendor/cookieconsent/cookieconsent.css"></head>
 
 <body>
 
-<div id="cookie-banner" class="cookie-banner">
-    <div class="cookie-container">
-        <p data-it='Questo sito utilizza solo cookie tecnici, necessari al funzionamento. Non utilizziamo cookie di profilazione o di terze parti. Consulta la nostra <a href="/it/cookie-policy.html" id="cookie-banner-link">Cookie Policy</a>.' 
-           data-en='This site uses only technical cookies necessary for its operation. We do not use profiling or third-party cookies. Check our <a href="/en/cookie-policy.html" id="cookie-banner-link">Cookie Policy</a>.'
-           data-fr='Ce site utilise uniquement des cookies techniques nécessaires à son fonctionnement. Nous n&#39;utilisons pas de cookies de profilage ou de tiers. Consultez notre <a href="/fr/cookie-policy.html" id="cookie-banner-link">Politique de cookies</a>.'
-           data-es='Este sito utiliza solo cookies técnicas, necesarias para su funcionamiento. No utilizamos cookies de perfilado ni de terceros. Consulte nuestra <a href="/es/cookie-policy.html" id="cookie-banner-link">Política de cookies</a>.'
-           data-de='Diese Website verwendet nur technische Cookies, die für den Betrieb erforderlich sind. Wir verwenden keine Profiling- oder Drittanbieter-Cookies. Lesen Sie unsere <a href="/de/cookie-policy.html" id="cookie-banner-link">Cookie-Richtlinie</a>.'>Diese Website verwendet nur technische Cookies, die für den Betrieb erforderlich sind. Wir verwenden keine Profiling- oder Drittanbieter-Cookies. Lesen Sie unsere <a href="/de/cookie-policy.html" id="cookie-banner-link">Cookie-Richtlinie</a>.</p>
-        <div class="cookie-actions">
-            <button id="accept-cookies" class="btn-cookie-accept" data-it="Ho capito" data-en="Got it" data-fr="J'ai compris" data-es="Entendido" data-de="Verstanden">Verstanden</button>
-        </div>
-    </div>
-</div>
 
   <!-- Mobile CTA Sticky -->
   <div class="mobile-cta-fixed">
@@ -521,7 +522,7 @@
   </script>
 
           <footer>
-        <p><strong id="footer-ragione-sociale">Tuttoscooter di Stefano Moncini - P.IVA 01172420117 - REA: SP-106760</strong> / <a href="/de/privacy-policy.html" id="privacy-footer" data-href-it="/it/privacy-policy.html" data-href-en="/en/privacy-policy.html" data-href-fr="/fr/privacy-policy.html" data-href-es="/es/privacy-policy.html" data-href-de="/de/privacy-policy.html" style="color: #fff; text-decoration: underline;">Privacy Policy</a> / <a href="/de/cookie-policy.html" id="cookie-footer" data-href-it="/it/cookie-policy.html" data-href-en="/en/cookie-policy.html" data-href-fr="/fr/cookie-policy.html" data-href-es="/es/cookie-policy.html" data-href-de="/de/cookie-policy.html" style="color: #fff; text-decoration: underline;">Cookie Policy</a></p>
+        <p><strong id="footer-ragione-sociale">Tuttoscooter di Stefano Moncini - P.IVA 01172420117 - REA: SP-106760</strong> / <a href="/de/privacy-policy.html" id="privacy-footer" data-href-it="/it/privacy-policy.html" data-href-en="/en/privacy-policy.html" data-href-fr="/fr/privacy-policy.html" data-href-es="/es/privacy-policy.html" data-href-de="/de/privacy-policy.html" style="color: #fff; text-decoration: underline;">Privacy Policy</a> / <a href="/de/cookie-policy.html" id="cookie-footer" data-href-it="/it/cookie-policy.html" data-href-en="/en/cookie-policy.html" data-href-fr="/fr/cookie-policy.html" data-href-es="/es/cookie-policy.html" data-href-de="/de/cookie-policy.html" style="color: #fff; text-decoration: underline;">Cookie Policy</a> / <a href="#" onclick="CookieConsent.showPreferences(); return false;" style="color:#fff;">Cookie-Einstellungen</a></p>
         <p><span data-it="Sede: via Michele Rossi, 67 - 19126 La Spezia - SP" data-en="Address: via Michele Rossi, 67 - 19126 La Spezia - SP, Italy" data-fr="Siège : via Michele Rossi, 67 - 19126 La Spezia - SP, Italie" data-es="Sede: via Michele Rossi, 67 - 19126 La Spezia - SP, Italia" data-de="Sitz: via Michele Rossi, 67 - 19126 La Spezia - SP, Italien">Sitz: via Michele Rossi, 67 - 19126 La Spezia - SP, Italien</span></p>
         <p style="margin-top: 0.5rem;">
             <span data-it="Tel:" data-en="Phone:" data-fr="Tél :" data-es="Tel:" data-de="Tel:">Tel:</span>
@@ -543,6 +544,8 @@
         </p>
     </footer>
 
+<script src="/assets/vendor/cookieconsent/cookieconsent.umd.js"></script>
+<script src="/assets/js/consent-init.js"></script>
   <script src="/assets/js/script.js"></script></body>
 
 </html>
