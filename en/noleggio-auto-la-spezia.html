@@ -5,6 +5,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {
+  'analytics_storage': 'denied',
+  'ad_storage': 'denied',
+  'ad_user_data': 'denied',
+  'ad_personalization': 'denied',
+  'wait_for_update': 500
+});
+</script>
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
@@ -30,19 +42,10 @@
 <link rel="alternate" hreflang="de" href="https://tuttoscooter.com/de/noleggio-auto-la-spezia.html" />
 <link rel="alternate" hreflang="x-default" href="https://tuttoscooter.com/it/noleggio-auto-la-spezia.html" />
 
-    <link rel="stylesheet" href="/assets/css/style.css"></head>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/vendor/cookieconsent/cookieconsent.css"></head>
 
 <body>
-
-<div id="cookie-banner" class="cookie-banner">
-    <div class="cookie-container">
-        <p>This site uses only technical cookies necessary for its operation. We do not use profiling or third-party cookies. 
-           Check our <a href="/en/cookie-policy.html">Cookie Policy</a>.</p>
-        <div class="cookie-actions">
-            <button id="accept-cookies" class="btn-cookie-accept">Got it</button>
-        </div>
-    </div>
-</div>
 
     <!-- Mobile CTA Sticky -->
   <div class="mobile-cta-fixed">
@@ -131,7 +134,7 @@
     </section>
 
             <footer>
-        <p><strong data-it="Tuttoscooter di Stefano Moncini - P.IVA 01172420117 - REA: SP-106760" data-en="Tuttoscooter di Stefano Moncini - VAT 01172420117 - REA: SP-106760" data-fr="Tuttoscooter di Stefano Moncini - TVA 01172420117 - REA: SP-106760">Tuttoscooter di Stefano Moncini - VAT 01172420117 - REA: SP-106760</strong> / <a href="/en/privacy-policy.html" id="privacy-footer" data-href-it="/it/privacy-policy.html" data-href-en="/en/privacy-policy.html" data-href-fr="/fr/privacy-policy.html" style="color: #fff; text-decoration: underline;">Privacy Policy</a> / <a href="/en/cookie-policy.html" id="cookie-footer" data-href-it="/it/cookie-policy.html" data-href-en="/en/cookie-policy.html" data-href-fr="/fr/cookie-policy.html" style="color: #fff; text-decoration: underline;">Cookie Policy</a></p>
+        <p><strong data-it="Tuttoscooter di Stefano Moncini - P.IVA 01172420117 - REA: SP-106760" data-en="Tuttoscooter di Stefano Moncini - VAT 01172420117 - REA: SP-106760" data-fr="Tuttoscooter di Stefano Moncini - TVA 01172420117 - REA: SP-106760">Tuttoscooter di Stefano Moncini - VAT 01172420117 - REA: SP-106760</strong> / <a href="/en/privacy-policy.html" id="privacy-footer" data-href-it="/it/privacy-policy.html" data-href-en="/en/privacy-policy.html" style="color: #fff; text-decoration: underline;">Privacy Policy</a> / <a href="/en/cookie-policy.html" id="cookie-footer" data-href-it="/it/cookie-policy.html" data-href-en="/en/cookie-policy.html" style="color: #fff; text-decoration: underline;">Cookie Policy</a> / <a href="#" onclick="CookieConsent.showPreferences(); return false;" style="color: #fff;">Cookie preferences</a></p>
         <p><span data-it="Sede: via Michele Rossi, 67 - 19126 La Spezia - SP" data-en="Address: via Michele Rossi, 67 - 19126 La Spezia - SP, Italy" data-fr="Siège : via Michele Rossi, 67 - 19126 La Spezia - SP, Italie">Address: via Michele Rossi, 67 - 19126 La Spezia - SP, Italy</span></p>
         <p style="margin-top: 0.5rem;">
             <span data-it="Tel:" data-en="Phone:" data-fr="Tél :">Phone:</span>
@@ -154,6 +157,8 @@
     </footer>
 
 
+<script src="/assets/vendor/cookieconsent/cookieconsent.umd.js"></script>
+<script src="/assets/js/consent-init.js"></script>
 <script src="/assets/js/script.js"></script></body>
 
 </html>

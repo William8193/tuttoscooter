@@ -86,10 +86,6 @@ function setLang(lang, options = {}) {
   const cookieFooter = document.getElementById('cookie-footer');
   if (cookieFooter) cookieFooter.href = cookieFooter.getAttribute('data-href-' + lang);
   
-  const cookieBannerLink = document.getElementById('cookie-banner-link');
-  if (cookieBannerLink) {
-    cookieBannerLink.href = '/' + lang + '/cookie-policy.html';
-  }
   localStorage.setItem('preferredLang', lang);
 }
 
@@ -103,19 +99,4 @@ document.addEventListener("DOMContentLoaded", function() {
     let langToUse = urlLang || htmlLang || savedLang || (browserLang.startsWith('it') ? 'it' : (browserLang.startsWith('fr') ? 'fr' : (browserLang.startsWith('es') ? 'es' : (browserLang.startsWith('de') ? 'de' : 'en'))));
     
     setLang(langToUse, { navigate: false });
-
-    // Cookie banner logic
-    const banner = document.getElementById('cookie-banner');
-    const acceptBtn = document.getElementById('accept-cookies');
-
-    if (banner && acceptBtn) {
-        if (!localStorage.getItem('cookieConsent')) {
-            banner.style.display = 'block';
-        }
-
-        acceptBtn.addEventListener('click', function() {
-            localStorage.setItem('cookieConsent', 'accepted');
-            banner.style.display = 'none';
-        });
-    }
 });
