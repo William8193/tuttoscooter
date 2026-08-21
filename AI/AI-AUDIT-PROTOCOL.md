@@ -730,6 +730,7 @@ tra un anno nessuno ricorderà a memoria.
 | Agosto 2026 | Devin ha eseguito `git reset` cancellando modifiche locali non committate. | W6/Sez. 3 — checkpoint Git obbligatorio prima di ogni sessione con agente AI. |
 | Agosto 2026 | Un report dichiarava un controllo "confermato" senza che fosse stato realmente verificato. | W9 — Principio P1, nessun PASS senza prova. |
 | Agosto 2026 | Due versioni del protocollo, entrambe etichettate "v2.2", con regole W1–W10 diverse tra loro. | Nota di unificazione in apertura del documento + regola: una sola copia ufficiale del protocollo, nessuna riscrittura parallela. |
+| Agosto 2026 | Lanciato un prompt di fix su un bug (`<p>` con testo visibile vuoto) che, al momento dell'esecuzione, non esisteva più — probabilmente già risolto in precedenza senza tracciamento. L'agente AI ha comunque applicato una modifica, introducendo un nuovo disallineamento tra testo visibile e attributo `data-it`. | Prima di lanciare un prompt di correzione, verificare che il problema segnalato esista ancora nel file reale (V1) — non fidarsi della sola memoria di una sessione precedente, anche se recente. |
 
 **Categorie ricorrenti da tenere sotto controllo** (raccolte dall'esperienza, non nuove regole):
 

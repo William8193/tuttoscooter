@@ -136,7 +136,7 @@ Apprese" in `AI-AUDIT-PROTOCOL.md`. Qui solo l'elenco tecnico sintetico:
 | Testo misto IT/FR in alcuni attributi `data-fr` | ✅ Risolto |
 | Rimozione card "Sede 2" da tutte le homepage | ✅ Risolto |
 | Rimozione label "Sede 1" mantenendo icona 📍 | ✅ Risolto |
-| `<p>` con testo visibile svuotato in `it/index.html` (~riga 276), atteso "Ritiro gratuito presso la nostra sede" — **singolare**, il sito ha oggi **una sola sede** (confermato 20/08/2026) | 🟡 In lavorazione |
+| `<p>` con testo visibile svuotato in `it/index.html` (~riga 276) — atteso "Ritiro gratuito presso la nostra sede" — **singolare**, il sito ha oggi **una sola sede** | ✅ Risolto (21/08/2026) — **nota:** al momento della verifica il bug non esisteva più nella forma originale; un tentativo di fix con Trae ha invece introdotto un disallineamento testo/`data-it`, corretto manualmente e verificato V1+V2 |
 | Altri eventuali riferimenti a "sedi" al plurale nel sito (residuo del periodo multi-sede) | 🟡 Da verificare — non ancora controllato sistematicamente su tutte le lingue |
 
 **Nota business (20/08/2026):** il sito oggi rappresenta **una sola sede**.
